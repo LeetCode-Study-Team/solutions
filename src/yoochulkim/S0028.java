@@ -19,24 +19,4 @@ public class S0028 {
     public static int strStr1(String haystack, String needle) {
         return haystack.indexOf(needle);
     }
-
-   /* public static int strStr2(String haystack, String needle) {
-        if (needle.length() > haystack.length()) { // needle 길이가 더 클 경우 체크
-            return -1;
-        } else if (needle.isEmpty()) { // needle 이 비어있으면 무조건 haystack의 포지션 0으로 간주
-            return 0;
-        }
-
-        int iterationNumber = calculateIterationNumber(haystack.length(), needle.length());
-
-        for (int i = 0; i < iterationNumber; i++) { // 7 3
-            String test = haystack.substring(i, i + needle.length());
-            if (test.equals(needle)) {
-                return i; // haystack 에서 needle 시작점 리턴
-            }
-        }
-
-        return -1;
-    }*/
-
 }
